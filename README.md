@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/icon.png" alt="KinBeaver" width="128">
+  <img src="https://raw.githubusercontent.com/arsashelov-star/KinBeaver-Launcher/main/assets/icon.png" alt="KinBeaver" width="128">
 </p>
 
 <h1 align="center">KinBeaver Launcher</h1>
@@ -21,7 +21,7 @@
 ## 📸 Скриншоты
 
 <p align="center">
-  <img src="docs/images/dashboard.png" width="780" alt="Dashboard">
+  <img src="https://raw.githubusercontent.com/arsashelov-star/KinBeaver-Launcher/main/assets/dashboard.png" width="780" alt="Панель управления">
 </p>
 
 <details>
@@ -29,8 +29,8 @@
 
 <table>
   <tr>
-    <td><img src="docs/images/boost.png" width="380"></td>
-    <td><img src="docs/images/mods.png" width="380"></td>
+    <td><img src="https://raw.githubusercontent.com/arsashelov-star/KinBeaver-Launcher/main/assets/dashboard.png" width="380"></td>
+    <td><img src="https://raw.githubusercontent.com/arsashelov-star/KinBeaver-Launcher/main/assets/dashboard.png" width="380"></td>
   </tr>
 </table>
 
@@ -51,12 +51,12 @@
 
 ## 🚀 Установка
 
-[![Скачать](https://img.shields.io/badge/Скачать-Latest_release-3fb950?style=for-the-badge&logo=windows)](https://github.com/username/KinBeaver/releases/latest)
+[![Скачать](https://img.shields.io/badge/Скачать-Latest_release-3fb950?style=for-the-badge&logo=windows)](https://github.com/arsashelov-star/KinBeaver-Launcher/releases/latest)
 
 Или собери сам:
 
 ```bash
-git clone https://github.com/username/KinBeaver
-cd KinBeaver
+git clone https://github.com/arsashelov-star/KinBeaver-Launcher
+cd KinBeaver-Launcher
 pip install -r requirements.txt
 python main.py

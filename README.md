@@ -1,19 +1,62 @@
-# KinBeaver Launcher
+<p align="center">
+  <img src="assets/icon.png" alt="KinBeaver" width="128">
+</p>
 
-Minecraft-лаунчер, который сам подбирает JVM, RAM и Java — играй, а не настраивай!
+<h1 align="center">KinBeaver Launcher</h1>
 
-## 📥 Скачать
-Перейдите в раздел [Releases](../../releases/latest) и скачайте последнюю версию `KinBeaverLauncher.zip`.
+<p align="center">
+  <img src="https://img.shields.io/badge/python-3.10%2B-blue" alt="Python">
+  <img src="https://img.shields.io/badge/platform-Windows-0078D6" alt="Platform">
+  <img src="https://img.shields.io/badge/license-MIT-green" alt="License">
+  <img src="https://img.shields.io/badge/version-3.0.0-brightgreen" alt="Version">
+</p>
 
-## ⚙️ Установка
-1. Скачайте архив.
-2. Распакуйте в любую папку (например, `D:\Games\KinBeaver`).
-3. Запустите `KinBeaverLauncher.exe`.
+<p align="center">
+  Minecraft-лаунчер с умной оптимизацией, авто-подбором Java<br>
+  и проверкой запуска перед стартом игры.
+</p>
 
-**Важно:** не запускайте `.exe` прямо из архива, иначе лаунчер не сможет найти папку с ресурсами (`assets`).
+---
 
-## ✨ Особенности
-- Авто-подбор Java и JVM-аргументов.
-- Установка модов и модпаков в один клик (Modrinth / FTB).
-- Smart Boost: оптимизация системы перед игрой.
-- Встроенный парсер крашей с подсказками.
+## 📸 Скриншоты
+
+<p align="center">
+  <img src="docs/images/dashboard.png" width="780" alt="Dashboard">
+</p>
+
+<details>
+<summary>Ещё скриншоты</summary>
+
+<table>
+  <tr>
+    <td><img src="docs/images/boost.png" width="380"></td>
+    <td><img src="docs/images/mods.png" width="380"></td>
+  </tr>
+</table>
+
+</details>
+
+---
+
+## ✨ Возможности
+
+- ⚡ **Smart Boost 3.0** — AI-анализ и прогноз FPS
+- 🧠 **Auto-JVM Optimizer** — подбор флагов под RAM и Java
+- 🛡 **Launch Preflight** — проверка перед Popen
+- 🔍 **Crash Parser** — расшифровка ошибок с подсказками
+- 📦 **Modrinth + FTB каталог** — установка модов в один клик
+- 🎨 **8 тем оформления**
+
+---
+
+## 🚀 Установка
+
+[![Скачать](https://img.shields.io/badge/Скачать-Latest_release-3fb950?style=for-the-badge&logo=windows)](https://github.com/username/KinBeaver/releases/latest)
+
+Или собери сам:
+
+```bash
+git clone https://github.com/username/KinBeaver
+cd KinBeaver
+pip install -r requirements.txt
+python main.py

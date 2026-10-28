@@ -1,38 +1,78 @@
-<p align="center"> <img src="[https://raw.githubusercontent.com/arsashelov-star/KinBeaver-Launcher/main/assets/icon.png](https://raw.githubusercontent.com/arsashelov-star/KinBeaver-Launcher/main/assets/icon.png)" alt="KinBeaver Logo" width="140">
+# ⛏ KinBeaver Launcher
 
-</p><h1 align="center">KinBeaver Launcher</h1><p align="center"> <b>Умный Minecraft-лаунчер, который сам подбирает JVM, RAM и Java — играй, а не настраивай!</b> </p><p align="center"> <img src="[https://img.shields.io/badge/version-3.1.0-brightgreen?style=for-the-badge&logo=github](https://img.shields.io/badge/version-3.1.0-brightgreen?style=for-the-badge&logo=github)" alt="Version"> <img src="[https://img.shields.io/badge/platform-Windows%2010%2F11-0078D6?style=for-the-badge&logo=windows](https://img.shields.io/badge/platform-Windows%2010%2F11-0078D6?style=for-the-badge&logo=windows)" alt="Platform"> <img src="[https://img.shields.io/badge/python-3.10%2B-blue?style=for-the-badge&logo=python](https://img.shields.io/badge/python-3.10%2B-blue?style=for-the-badge&logo=python)" alt="Python"> <img src="[https://img.shields.io/badge/license-MIT-green?style=for-the-badge](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)" alt="License"> </p><p align="center"> <a href="[https://github.com/arsashelov-star/KinBeaver-Launcher/releases/latest](https://github.com/arsashelov-star/KinBeaver-Launcher/releases/latest)"> <img src="[https://img.shields.io/badge/Скачать-Latest_Release-3fb950?style=for-the-badge&logo=windows&logoColor=white](https://img.shields.io/badge/Скачать-Latest_Release-3fb950?style=for-the-badge&logo=windows&logoColor=white)" alt="Download"> </a> </p>
-📸 Скриншоты
-<p align="center"> <img src="[https://raw.githubusercontent.com/arsashelov-star/KinBeaver-Launcher/main/assets/dashboard.png](https://raw.githubusercontent.com/arsashelov-star/KinBeaver-Launcher/main/assets/dashboard.png)" width="800" alt="Главное окно"> </p><details> <summary><b>Посмотреть остальные скриншоты (Smart Boost, Каталог модов)</b></summary> <br> <table align="center"> <tr> <td><img src="[https://raw.githubusercontent.com/arsashelov-star/KinBeaver-Launcher/main/assets/boost.png](https://raw.githubusercontent.com/arsashelov-star/KinBeaver-Launcher/main/assets/boost.png)" width="400" alt="Smart Boost"></td> <td><img src="[https://raw.githubusercontent.com/arsashelov-star/KinBeaver-Launcher/main/assets/mods.png](https://raw.githubusercontent.com/arsashelov-star/KinBeaver-Launcher/main/assets/mods.png)" width="400" alt="Каталог модов"></td> </tr> </table> </details>
-🖥️ Системные требования
+Современный лаунчер Minecraft для Windows с каталогом Modrinth/FTB,
+умной оптимизацией, автоподбором Java, изоляцией профилей по версиям
+и продвинутой системой анимаций.
 
-KinBeaver — оптимизированный лаунчер, но для стабильной работы Minecraft (особенно с модами) ваше железо должно соответствовать следующим параметрам:
+![Version](https://img.shields.io/badge/version-3.1.0-blue)
+![Python](https://img.shields.io/badge/python-3.10+-green)
+![Platform](https://img.shields.io/badge/platform-Windows-lightgrey)
+![License](https://img.shields.io/badge/license-MIT-yellow)
 
-Компонент	🟢 Минимальные	🔥 Рекомендуемые
-ОС	Windows 10 (64-bit)	Windows 10 / 11 (64-bit)
-Процессор	Intel Core i3 / AMD Ryzen 3	Intel Core i5 / AMD Ryzen 5 и выше
-Оперативная память	4 ГБ (выделять 2 ГБ для игры)	8–16 ГБ (выделять 4–6 ГБ для игры)
-Видеокарта	Встроенная (Intel HD 4000+)	Дискретная (GTX 1050 / RX 560 и выше)
-Место на диске	1 ГБ (для лаунчера + ядро игры)	10+ ГБ (для модов, ресурспаков и миров)
-Java	Java 17 (64-bit)	Java 21 (64-bit) для MC 1.20.5+<br>Java 25 для MC 26.x
-Интернет	Требуется для загрузки	Стабильное подключение
+---
 
-⚠️ Важно про Java: Лаунчер не скачивает Java автоматически. Он умеет её находить в системе и проверять на совместимость. Если у вас не запускается игра — скачайте актуальную версию Java с Adoptium (Temurin)
-.
+## ✨ Возможности
 
-✨ Главные фишки
-⚡ Smart Boost 3.0 — встроенный AI-анализ системы. Сам подберет идеальные JVM-флаги, выделит нужное количество RAM и очистит память перед запуском.
-🧠 Auto-JVM Optimizer — забыли про -Xmx и -Xms? Лаунчер сам подберет G1GC-флаги под вашу версию Java и количество модов.
-🛡️ Launch Preflight — проверка перед запуском. Лаунчер проверит целостность файлов, наличие ассетов и совместимость модов. Вы увидите вероятность успешного запуска в %.
-🔍 Crash Parser — если игра вылетела, лаунчер прочитает лог и напишет человеческим языком: "Не хватает памяти" или "Конфликт миксинов в моде X".
-📦 Каталог модов (Modrinth) — установка модов, ресурспаков и шейдеров в один клик. Зависимости скачиваются автоматически.
-🎨 8 тем оформления — от классической тёмной до "Бобровой".
-🔄 Автообновление — лаунчер сам проверяет новые версии на GitHub и обновляет себя. Ваши настройки и моды при этом не удаляются!
-🚀 Установка
-Для игроков (Автоматическая сборка)
-Перейдите в раздел Releases
-.
-Скачайте последний .zip архив.
-Распакуйте в любую папку (например, C:\KinBeaver).
-Запустите KinBeaver.exe.
+### 🎮 Игровой опыт
+- **Каталог модов/модпаков/ресурспаков/шейдеров** — прямая интеграция с Modrinth API и FTB
+- **Установка в один клик** — авто-резолв зависимостей, параллельные загрузки
+- **Импорт `.mrpack`** — полноценная поддержка модпаков Modrinth
+- **Изоляция по версиям** — каждый профиль со своими модами и конфигами, миры и скриншоты общие (через junction)
+- **Microsoft Auth** — вход через device-code flow
+- **CustomSkinLoader** — автосинхронизация скинов и плащей с игрой
 
-🛡️ Антивирусы (Windows Defender, Kaspersky и др.) могут ругаться на .exe, собранный через PyInstaller. Это ложное срабатывание. Добавьте папку с лаунчером в исключения антивируса.
+### ⚡ Оптимизация
+- **Smart Boost 3.0** — анализ железа, прогноз FPS, 4 профиля (производительность/стриминг/баланс/качество)
+- **Автоподбор RAM** — по количеству модов, шейдеров, свободной памяти
+- **Aikar's Flags** — автоматические JVM-флаги под вашу Java и RAM
+- **Буст при запуске** — Java HIGH priority, trim RAM лаунчера, убийство зомби-java, Windows Game Mode
+- **Тонкая настройка графики** — `options.txt`, Sodium, Iris под пресеты
+- **Продвинутый Boost** — очистка логов, удаление устаревших версий, анализ крашей
+
+### 🛡 Надёжность
+- **Автопоиск Java** — JDK из PATH, JAVA_HOME, Program Files, Adoptium, Corretto, Zulu, GraalVM…
+- **Каскадная установка лоадеров** — MCL → официальный installer.jar → зеркала
+- **Проверка целостности** — SHA1 для модов, SHA256 для Java
+- **Pre-flight check** — проверка classpath, main class, ассетов, нативов перед запуском
+- **Парсер крашей** — `crash-reports/*.txt`, `hs_err_pid*.log`, exit-code → человекочитаемая подсказка
+- **Безопасный режим** — отключение всех модов при краше в один клик
+- **Авто-починка** — битые версии переустанавливаются автоматически
+- **Fast-launch** — 2-й+ запуск версии мгновенный (все проверки пропущены)
+
+### 🌐 Сеть
+- **Зеркала Mojang** — bmclapi2, hkmc, bsmirror, ghproxy с автопереключением при ошибке
+- **DNS-over-HTTPS** — обход DNS-блокировок провайдера
+- **Прокси** — socks5/http
+- **Range-загрузка** — параллельная для больших файлов
+
+### 🎨 UI
+- **8 тем** — тёмная, светлая, розовая, красная, оранжевая, фиолетовая, синяя, «бобровая»
+- **Анимации** — stagger-появление карточек, shimmer-skeleton, hover-scale, pulse
+- **Command palette** — Ctrl+K с поиском по действиям
+- **Горячие клавиши** — Ctrl+R (запуск), Ctrl+L (консоль), Ctrl+1..7 (вкладки), F5
+- **Toast-уведомления** — slide-in с overshoot
+- **2D/3D viewer скинов** — псевдо-3D с тенями и вторым слоем
+
+### 🔌 Расширяемость
+- **Python-плагины** — `.py` из `userdata/extensions/`
+- **Хуки** — `on_launcher_ready`, `on_game_start`, `on_game_exit`, `on_mod_installed`, `on_tab_open`
+- **Свои вкладки** — `kb_api.add_tab()`
+- **Кнопки на дашборде** — `kb_api.add_dashboard_button()`
+
+---
+
+## 📦 Установка
+
+### Готовый `.exe`
+
+1. Скачайте `KinBeaver_Setup.exe` из [Releases](../../releases)
+2. Запустите установщик
+3. Готово
+
+### Из исходников
+
+```bash
+git clone https://github.com/arsashelov-star/KinBeaver-Launcher.git
+cd KinBeaver-Launcher
+pip install -r requirements.txt
+python main.py
